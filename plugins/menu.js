@@ -32,7 +32,7 @@ const defaultMenu = {
   body: '║│➸%cmd %islimit %isPremium',
   footer: '*╰───❉*\n',
   after: `
-  ⬣━〔Powered By Rozi〕━⬣
+  ⬣━〔Powered By Ryu〕━⬣
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -231,7 +231,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ║│➸ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ╰─────────❉
 _____••••••••• 
-⬣━〔Powered By Rozi〕━⬣
+⬣━〔Powered By Ryu〕━⬣
 ▌│█║▌║▌║║▌║▌║█│▌ `.trim(),
                         "footerText": "*group offc bot https://bit.ly/3IKkoym*",
                         "buttonText": "««TAMPILAN MENU««",
@@ -554,16 +554,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "udah malam tidur gih •>•"
   if (time >= 4) {
-    res = "Selamat pagi hari bro 🌅"
+    res = "Selamat pagi  🌅"
   }
   if (time > 10) {
-    res = "Selamat siang hari bro 🏜️"
+    res = "Selamat siang  🏜️"
   }
   if (time >= 15) {
-    res = "Selamat sore hari bro 🌄"
+    res = "Selamat sore  🌄"
   }
   if (time >= 18) {
-    res = "Selamat malam hari bro 🌌"
+    res = "Selamat malam  🌌"
   }
   return res
 }
